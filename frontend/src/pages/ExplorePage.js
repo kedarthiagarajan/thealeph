@@ -48,7 +48,7 @@ const ExplorePage = () => {
             <div className="explore-content">
                 <p className="description">
                     We have collected data from over 2000+ Autonomous Systems (AS). 
-                    Enter an AS number below to see what we have found.
+                    Enter an AS number and click on the buttons below to see what we have found.
                 </p>
                 <input
                     className="input-box"

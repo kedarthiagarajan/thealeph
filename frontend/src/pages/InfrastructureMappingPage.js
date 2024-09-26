@@ -44,7 +44,7 @@ const InfrastructureMappingPage = () => {
     return (
         <div>
           <h1>Infrastructure Map for ASN {asn}</h1>
-          <p> We construct the map using all available records from OpenIntel's February 2024 RDNS scan.</p>
+          <p> We construct the map using all available records from OpenIntel's February 2024 RDNS scan. Clicking on the pins reveals the number of IP address the Aleph found in that location.</p>
           {data ? renderInfrastructureMap(data) : <p>Loading...</p>} {/* Conditional rendering */}
           <button style={{ marginTop: '30px' }} onClick={() => navigate(-1)}>Back to Explore</button>
         </div>
