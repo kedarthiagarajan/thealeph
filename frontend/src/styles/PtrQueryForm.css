@@ -1,0 +1,79 @@
+.ptr-query-form {
+    width: 60%; /* Adjusted width for better layout */
+    margin: 0 auto; /* Center the form in the middle of the page */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+label {
+    margin-right: 10px; /* Space between label and input */
+    font-weight: bold;
+    white-space: nowrap; /* Prevents the label from wrapping */
+}
+
+.input-box {
+    border: 3px solid #000;
+    border-radius: 5px;
+    height: 50px;
+    line-height: normal;
+    color: #282828;
+    display: block;
+    width: 50%; /* Adjust width as needed */
+    box-sizing: border-box;
+    user-select: auto;
+    font-size: 16px;
+    padding: 0 6px;
+    padding-left: 500px;
+    margin: 0 auto; /* This will center the box */
+}
+.input-box:focus {
+    border: 3px solid #5551ff;
+}
+
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between; /* Optional: adds space between inputs */
+    flex-direction: row;
+    gap: 20px; /* Adjust this for spacing between the two form groups */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Make both form groups take equal width */
+}
+
+.info-paragraph {
+    width: 60%;
+    margin-left: 3500px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-wrap: wrap;
+    color: #333;
+}

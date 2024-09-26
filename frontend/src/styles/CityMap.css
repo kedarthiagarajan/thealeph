@@ -1,0 +1,6 @@
+.map-container {
+    height: 80vh;
+    width: 50%;
+    position: relative; /* Ensure it's positioned correctly in the layout */
+}
+

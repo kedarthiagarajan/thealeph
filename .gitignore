@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+env/
+*.pyc
+
+# Node.js / React
+node_modules/
+build/
+
+# Docker
+*.log
+.env
+

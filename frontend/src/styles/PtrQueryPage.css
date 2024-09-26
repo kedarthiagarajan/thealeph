@@ -1,0 +1,36 @@
+.styled-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 2rem auto; /* Center the table */
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #333;
+    color: white;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+    background-color: #ddd;
+}
+
+.ptr-query-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}

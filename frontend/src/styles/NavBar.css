@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ddd; /* Optional hover effect */
+}
