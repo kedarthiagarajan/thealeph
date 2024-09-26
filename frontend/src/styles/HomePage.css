@@ -23,7 +23,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto; /* Ensure it is horizontally centered */
@@ -85,7 +84,7 @@ body {
 .quote-container {
     text-align: center;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
